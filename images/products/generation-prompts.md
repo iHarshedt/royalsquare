@@ -1,0 +1,35 @@
+# Product image prompts
+
+Generated using the built-in image_gen tool. Category illustrations, not photographs of actual inventory.
+
+## building-materials-generated.jpg
+
+Use case: product-mockup. Create one photorealistic landscape 1536x1024 product category photograph for a premium building materials supplier website. Subject: joint compound buckets, gypsum drywall board stack, a folded heavy-duty blue tarpaulin, aluminum industrial stepladder, pallet trolley and roll of floor protection. Arrange recognizable technically plausible individual products neatly on a warm light-gray concrete studio work surface, subtle neutral warehouse backdrop softly blurred, soft side daylight, realistic material textures, restrained industrial catalog photography. All main objects contained in central 80 percent with generous margins suitable for wide website card cropping. No people, no logos, no brand names, no readable text, no certification marks, no watermark. One cohesive photo, not a collage.
+
+## pipes-fittings-generated.jpg
+
+Use case: product-mockup. Create one photorealistic landscape 1536x1024 product category photograph for a premium building materials supplier website. Subject: red ductile iron grooved rigid couplings with two bolt lugs, red 90-degree grooved elbow, red mechanical tee, concentric reducer, galvanized threaded fittings and brass valve. Arrange recognizable technically plausible individual products neatly on a warm light-gray concrete studio work surface, subtle neutral warehouse backdrop softly blurred, soft side daylight, realistic material textures, restrained industrial catalog photography. All main objects contained in central 80 percent with generous margins suitable for wide website card cropping. No people, no logos, no brand names, no readable text, no certification marks, no watermark. One cohesive photo, not a collage.
+
+## sealants-chemicals-generated.jpg
+
+Use case: product-mockup. Create one photorealistic landscape 1536x1024 product category photograph for a premium building materials supplier website. Subject: upright silicone sealant cartridges with long tapered nozzles, polyurethane expanding foam cans with applicator straws, dual chemical injection mortar cartridge and small UPVC solvent cement tin. Arrange recognizable technically plausible individual products neatly on a warm light-gray concrete studio work surface, subtle neutral warehouse backdrop softly blurred, soft side daylight, realistic material textures, restrained industrial catalog photography. All main objects contained in central 80 percent with generous margins suitable for wide website card cropping. No people, no logos, no brand names, no readable text, no certification marks, no watermark. One cohesive photo, not a collage.
+
+## fasteners-fixings-generated.jpg
+
+Use case: product-mockup. Create one photorealistic landscape 1536x1024 product category photograph for a premium building materials supplier website. Subject: zinc plated concrete wedge anchors with nuts and washers, hex bolts, threaded rods, black drywall screws, self-drilling tek screws and blind rivets, neatly arranged distinct groups. Arrange recognizable technically plausible individual products neatly on a warm light-gray concrete studio work surface, subtle neutral warehouse backdrop softly blurred, soft side daylight, realistic material textures, restrained industrial catalog photography. All main objects contained in central 80 percent with generous margins suitable for wide website card cropping. No people, no logos, no brand names, no readable text, no certification marks, no watermark. One cohesive photo, not a collage.
+
+## paints-coatings-generated.jpg
+
+Use case: product-mockup. Create one photorealistic landscape 1536x1024 product category photograph for a premium building materials supplier website. Subject: unbranded red oxide primer tin, wall putty bucket, aerosol paint cans, closed industrial thinner tin, stacked dark cutting discs and textured sanding discs. Arrange recognizable technically plausible individual products neatly on a warm light-gray concrete studio work surface, subtle neutral warehouse backdrop softly blurred, soft side daylight, realistic material textures, restrained industrial catalog photography. All main objects contained in central 80 percent with generous margins suitable for wide website card cropping. No people, no logos, no brand names, no readable text, no certification marks, no watermark. One cohesive photo, not a collage.
+
+## safety-ppe-generated.jpg
+
+Use case: product-mockup. Create one photorealistic landscape 1536x1024 product category photograph for a premium building materials supplier website. Subject: yellow safety helmet, pair of black leather steel-toe work boots, fluorescent yellow reflective vest, full body safety harness laid neatly, clear safety goggles and red fire extinguisher. Arrange recognizable technically plausible individual products neatly on a warm light-gray concrete studio work surface, subtle neutral warehouse backdrop softly blurred, soft side daylight, realistic material textures, restrained industrial catalog photography. All main objects contained in central 80 percent with generous margins suitable for wide website card cropping. No people, no logos, no brand names, no readable text, no certification marks, no watermark. One cohesive photo, not a collage.
+
+## welding-fabrication-generated.jpg
+
+Use case: product-mockup. Create one photorealistic landscape 1536x1024 product category photograph for a premium building materials supplier website. Subject: compact inverter welding machine with cables and electrode holder, bundle of flux coated welding electrodes, brass oxy-acetylene cutting torch, twin gauge regulator and dark welding face shield. Arrange recognizable technically plausible individual products neatly on a warm light-gray concrete studio work surface, subtle neutral warehouse backdrop softly blurred, soft side daylight, realistic material textures, restrained industrial catalog photography. All main objects contained in central 80 percent with generous margins suitable for wide website card cropping. No people, no logos, no brand names, no readable text, no certification marks, no watermark. One cohesive photo, not a collage.
+
+## tools-hardware-generated.jpg
+
+Use case: product-mockup. Create one photorealistic landscape 1536x1024 product category photograph for a premium building materials supplier website. Subject: chrome spanners, tube cutter, heavy-duty red bolt cutters, manual pipe bender, caliper, tape measure and open industrial metal toolbox on workbench. Arrange recognizable technically plausible individual products neatly on a warm light-gray concrete studio work surface, subtle neutral warehouse backdrop softly blurred, soft side daylight, realistic material textures, restrained industrial catalog photography. All main objects contained in central 80 percent with generous margins suitable for wide website card cropping. No people, no logos, no brand names, no readable text, no certification marks, no watermark. One cohesive photo, not a collage.

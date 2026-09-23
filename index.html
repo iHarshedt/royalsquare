@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <!-- WhatsApp Floating Button -->
     <a href="https://wa.me/971503772093?text=Hello%20Royal%20Square!%20I'm%20interested%20in%20your%20building%20materials." class="whatsapp-float" id="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,14 +23,6 @@
         </svg>
         <span class="whatsapp-tooltip">Chat with us!</span>
     </a>
-
-    <!-- Preloader -->
-    <div class="preloader" id="preloader">
-        <div class="preloader-inner">
-            <img src="images/logo-light.png" alt="Royal Square Building Material Trading LLC" class="preloader-logo">
-            <div class="preloader-bar"><div class="preloader-fill"></div></div>
-        </div>
-    </div>
 
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
@@ -50,26 +43,28 @@
                 </svg>
                 Get Quote
             </a>
-            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
                 <span></span><span></span><span></span>
             </button>
         </div>
     </nav>
 
+    <main id="main-content" tabindex="-1">
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-bg">
-            <img src="images/hero.jpg" alt="Premium building interior" class="hero-img">
+            <img src="images/hero.jpg" alt="Premium building interior" class="hero-img" fetchpriority="high" decoding="async">
             <div class="hero-overlay"></div>
         </div>
         <div class="hero-particles" id="hero-particles"></div>
         <div class="hero-content">
+            <p class="hero-eyebrow">ROYAL SQUARE · DUBAI, UAE</p>
             <h1 class="hero-title animate-on-scroll">
-                Building <span class="text-gradient">Excellence</span>,<br>
-                One Material at a Time
+                Materials for your<br><span class="text-gradient">next great build.</span>
+
             </h1>
             <p class="hero-subtitle animate-on-scroll">
-                Your premier UAE destination for certified building materials, grooved MEP fittings, chemical sealants, fasteners, PPE & industrial hardware. Meeting Dubai Municipality & UAE Civil Defence standards.
+                From MEP fittings to site essentials, find the supplies your project needs. Explore our range and send your requirements directly to our Dubai team.
             </p>
             <div class="hero-actions animate-on-scroll">
                 <a href="#products" class="btn btn-primary">
@@ -160,139 +155,126 @@
                 <h2 class="section-title">Comprehensive Building Materials &amp;<br><span class="text-gradient">Industrial Supplies for the UAE</span></h2>
                 <p class="section-desc">Certified to UAE Civil Defence, Dubai Municipality, BS, ASTM &amp; DIN standards. Sourced for leading MEP, civil, and contracting projects.</p>
             </div>
-            <div class="products-grid">
+            <div class="catalog-toolbar">
+    <label for="product-search">Find your materials</label>
+    <input id="product-search" type="search" placeholder="Search pipes, sealants, safety equipment…" autocomplete="off" aria-controls="product-grid">
+    <span id="product-count" role="status" aria-live="polite">8 product categories</span>
+</div>
+<div class="products-grid" id="product-grid">
                 <!-- 1. Building Materials & Drywall -->
                 <div class="product-card animate-on-scroll" style="--delay: 0.05s">
                     <div class="product-img">
-                        <img src="images/products/building-materials.jpg" alt="Building Materials &amp; Drywall Supplies UAE">
-                        <div class="product-overlay">
-                            <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Building%20Materials%20%26%20Site%20Supplies." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a>
-                        </div>
-                    </div>
-                    <div class="product-info">
+                        <img src="images/products/building-materials-generated.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="Building Materials &amp; Drywall Supplies UAE">
+                        </div><div class="product-info">
                         <span class="product-spec">BS EN 131 &bull; Site Consumables</span>
-                        <div class="product-icon">🏗️</div>
+
                         <h3>Building Materials &amp; Drywall</h3>
                         <p>Joint compounds, skim coat, heavy-duty tarpaulins, industrial ladders, pallet trolleys, caster wheels &amp; floor protection sheets.</p>
-                    </div>
+                    <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Building%20Materials%20%26%20Site%20Supplies." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire now ↗</a></div>
                 </div>
 
                 <!-- 2. Grooved Piping & MEP Fittings -->
                 <div class="product-card animate-on-scroll" style="--delay: 0.1s">
                     <div class="product-img">
-                        <img src="images/products/pipes-fittings.jpg" alt="Grooved Piping &amp; MEP Fittings UAE">
-                        <div class="product-overlay">
-                            <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Grooved%20Piping%20%26%20MEP%20Fittings." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a>
-                        </div>
-                    </div>
-                    <div class="product-info">
+                        <img src="images/products/pipes-fittings-generated.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="Grooved Piping &amp; MEP Fittings UAE">
+                        </div><div class="product-info">
                         <span class="product-spec">UL / FM Approved &bull; Ductile Iron</span>
-                        <div class="product-icon">🔩</div>
+
                         <h3>Grooved Piping &amp; MEP Fittings</h3>
                         <p>Rigid &amp; flexible grooved couplings (2&quot;-8&quot; HMX), 90&deg; elbows, mechanical tees, concentric reducers, MI / GI threaded fittings &amp; valves.</p>
-                    </div>
+                    <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Grooved%20Piping%20%26%20MEP%20Fittings." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire now ↗</a></div>
                 </div>
 
                 <!-- 3. Adhesives, Sealants & PU Foams -->
                 <div class="product-card animate-on-scroll" style="--delay: 0.15s">
                     <div class="product-img">
-                        <img src="images/products/sealants-chemicals.jpg" alt="Construction Chemicals, Sealants &amp; PU Foams UAE">
-                        <div class="product-overlay">
-                            <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Adhesives%2C%20Sealants%20%26%20PU%20Foams." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a>
-                        </div>
-                    </div>
-                    <div class="product-info">
+                        <img src="images/products/sealants-chemicals-generated.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="Construction Chemicals, Sealants &amp; PU Foams UAE">
+                        </div><div class="product-info">
                         <span class="product-spec">Fire-Rated &bull; Structural Grade</span>
-                        <div class="product-icon">🧪</div>
+
                         <h3>Adhesives, Sealants &amp; PU Foams</h3>
                         <p>Neutral &amp; acetic silicone sealants, polyurethane expanding foams, chemical injection mortars for rebar doweling &amp; UPVC solvent cement.</p>
-                    </div>
+                    <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Adhesives%2C%20Sealants%20%26%20PU%20Foams." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire now ↗</a></div>
                 </div>
 
                 <!-- 4. Fasteners, Anchors & Fixings -->
                 <div class="product-card animate-on-scroll" style="--delay: 0.2s">
                     <div class="product-img">
-                        <img src="images/products/fasteners-fixings.jpg" alt="Fasteners, Anchors &amp; Fixings UAE">
-                        <div class="product-overlay">
-                            <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Fasteners%2C%20Anchors%20%26%20Fixings." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a>
-                        </div>
-                    </div>
-                    <div class="product-info">
+                        <img src="images/products/fasteners-fixings-generated.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="Fasteners, Anchors &amp; Fixings UAE">
+                        </div><div class="product-info">
                         <span class="product-spec">DIN / ISO &bull; ETA Approved</span>
-                        <div class="product-icon">⚡</div>
+
                         <h3>Fasteners, Anchors &amp; Fixings</h3>
                         <p>Through bolts, concrete wedge anchors, high-tensile threaded rods (Gr 8.8/10.9), drywall screws, self-drilling tek screws &amp; blind rivets.</p>
-                    </div>
+                    <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Fasteners%2C%20Anchors%20%26%20Fixings." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire now ↗</a></div>
                 </div>
 
                 <!-- 5. Paints, Primers & Abrasives -->
                 <div class="product-card animate-on-scroll" style="--delay: 0.25s">
                     <div class="product-img">
-                        <img src="images/products/paints-coatings.jpg" alt="Industrial Paints, Primers &amp; Abrasives UAE">
-                        <div class="product-overlay">
-                            <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Paints%2C%20Primers%20%26%20Abrasives." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a>
-                        </div>
-                    </div>
-                    <div class="product-info">
+                        <img src="images/products/paints-coatings-generated.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="Industrial Paints, Primers &amp; Abrasives UAE">
+                        </div><div class="product-info">
                         <span class="product-spec">EN 12413 &bull; Anti-Corrosive</span>
-                        <div class="product-icon">🎨</div>
+
                         <h3>Paints, Primers &amp; Abrasives</h3>
                         <p>Red oxide &amp; zinc phosphate primers, acrylic wall putty, aerosol spray paints, industrial thinners &amp; silicon carbide cutting/sanding discs.</p>
-                    </div>
+                    <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Paints%2C%20Primers%20%26%20Abrasives." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire now ↗</a></div>
                 </div>
 
                 <!-- 6. Safety & Site PPE -->
                 <div class="product-card animate-on-scroll" style="--delay: 0.3s">
                     <div class="product-img">
-                        <img src="images/products/safety-ppe.jpg" alt="Safety PPE &amp; Site Protection UAE">
-                        <div class="product-overlay">
-                            <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Safety%20%26%20PPE%20Equipment." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a>
-                        </div>
-                    </div>
-                    <div class="product-info">
+                        <img src="images/products/safety-ppe-generated.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="Safety PPE &amp; Site Protection UAE">
+                        </div><div class="product-info">
                         <span class="product-spec">Civil Defence &amp; OSHAD Certified</span>
-                        <div class="product-icon">🦺</div>
+
                         <h3>Safety &amp; PPE Equipment</h3>
                         <p>EN 397 safety helmets, S3 steel-toe safety shoes, EN ISO 20471 high-visibility vests, full body harnesses, safety goggles &amp; fire extinguishers.</p>
-                    </div>
+                    <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Safety%20%26%20PPE%20Equipment." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire now ↗</a></div>
                 </div>
 
                 <!-- 7. Welding & Fabrication Products -->
                 <div class="product-card animate-on-scroll" style="--delay: 0.35s">
                     <div class="product-img">
-                        <img src="images/products/welding-fabrication.jpg" alt="Welding &amp; Metal Fabrication Supplies UAE">
-                        <div class="product-overlay">
-                            <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Welding%20%26%20Fabrication%20Products." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a>
-                        </div>
-                    </div>
-                    <div class="product-info">
+                        <img src="images/products/welding-fabrication-generated.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="Welding &amp; Metal Fabrication Supplies UAE">
+                        </div><div class="product-info">
                         <span class="product-spec">AWS A5.1 &bull; Low-Hydrogen</span>
-                        <div class="product-icon">🔥</div>
+
                         <h3>Welding &amp; Fabrication</h3>
                         <p>AWS-classified welding electrodes (E6013, E7018), industrial inverter welding machines, oxy-acetylene cutting torches, regulators &amp; shields.</p>
-                    </div>
+                    <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Welding%20%26%20Fabrication%20Products." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire now ↗</a></div>
                 </div>
 
                 <!-- 8. Hand Tools & Industrial Hardware -->
                 <div class="product-card animate-on-scroll" style="--delay: 0.4s">
                     <div class="product-img">
-                        <img src="images/products/tools-hardware.jpg" alt="Hand Tools &amp; Industrial Hardware UAE">
-                        <div class="product-overlay">
-                            <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Hand%20Tools%20%26%20Industrial%20Hardware." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a>
-                        </div>
-                    </div>
-                    <div class="product-info">
+                        <img src="images/products/tools-hardware-generated.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="Hand Tools &amp; Industrial Hardware UAE">
+                        </div><div class="product-info">
                         <span class="product-spec">Industrial Grade &bull; Cr-V Steel</span>
-                        <div class="product-icon">🛠️</div>
+
                         <h3>Hand Tools &amp; Hardware</h3>
                         <p>Precision measuring instruments, heavy-duty pipe benders &amp; tube cutters, bolt cutters, spanners, industrial toolboxes &amp; workbenches.</p>
-                    </div>
+                    <a href="https://wa.me/971503772093?text=Hi!%20I'm%20interested%20in%20your%20Hand%20Tools%20%26%20Industrial%20Hardware." class="product-enquiry" target="_blank" rel="noopener noreferrer">Enquire now ↗</a></div>
                 </div>
             </div>
-            </div>
+
         </div>
     </section>
 
+    <section class="section order-guide" aria-labelledby="order-title">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">From enquiry to supply</span>
+                <h2 class="section-title" id="order-title">Your next order, made simple.</h2>
+                <p class="section-desc">Give our team the details. We’ll help you take the next step.</p>
+            </div>
+            <div class="order-steps">
+                <article><span class="step-number">01</span><h3>Build your list</h3><p>Choose a category and note the materials, quantities, sizes, and specifications you need.</p></article>
+                <article><span class="step-number">02</span><h3>Send your enquiry</h3><p>Share your requirements on WhatsApp. Add your project location and required delivery date.</p></article>
+                <article><span class="step-number">03</span><h3>Confirm the details</h3><p>Discuss availability, pricing, and delivery with our team before confirming your order.</p></article>
+            </div>
+        </div>
+    </section>
     <!-- Why Us Section -->
     <section class="section why-us" id="why-us">
         <div class="container">
@@ -386,7 +368,7 @@
                     <span class="section-tag">Get in Touch</span>
                     <h2 class="section-title">Let's Build<br><span class="text-gradient">Together</span></h2>
                     <p class="contact-desc">Have questions? Need a quote? Reach out to us through any of these channels and our team will get back to you promptly.</p>
-                    
+
                     <div class="contact-cards">
                         <div class="contact-card">
                             <div class="contact-card-icon">
@@ -437,18 +419,23 @@
                 <div class="contact-form-wrap animate-on-scroll">
                     <div class="contact-form-card">
                         <h3>Send Us a Message</h3>
-                        <form id="contact-form">
+                        <p class="form-note" id="form-note">Opens WhatsApp with your enquiry. Review it there before sending.</p>
+                        <form id="contact-form" aria-describedby="form-note">
                             <div class="form-group">
-                                <input type="text" id="name" placeholder="Your Name" required>
+                                <label for="name">Your name (required)</label>
+                                <input type="text" id="name" name="name" autocomplete="name" maxlength="100" placeholder="Your Name" required>
                             </div>
                             <div class="form-group">
-                                <input type="tel" id="phone" placeholder="Phone Number" required>
+                                <label for="phone">Phone number (required)</label>
+                                <input type="tel" id="phone" name="phone" autocomplete="tel" maxlength="30" placeholder="Phone Number" required>
                             </div>
                             <div class="form-group">
-                                <input type="email" id="email" placeholder="Email Address">
+                                <label for="email">Email address (optional)</label>
+                                <input type="email" id="email" name="email" autocomplete="email" placeholder="Email Address">
                             </div>
                             <div class="form-group">
-                                <select id="product-interest">
+                                <label for="product-interest">Product interest (optional)</label>
+                                <select id="product-interest" name="product-interest">
                                     <option value="">Select Product Interest</option>
                                     <option value="building-materials">Building Materials &amp; Drywall</option>
                                     <option value="grooved-piping">Grooved Piping &amp; MEP Fittings</option>
@@ -462,7 +449,8 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <textarea id="message" placeholder="Your Message" rows="4"></textarea>
+                                <label for="message">Your message (optional)</label>
+                                <textarea id="message" name="message" placeholder="Your Message" rows="4"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary btn-full">
                                 Send via WhatsApp
@@ -477,6 +465,19 @@
         </div>
     </section>
 
+
+    <section class="section faq" aria-labelledby="faq-title">
+        <div class="container faq-layout">
+            <div><span class="section-tag">Good to know</span><h2 class="section-title" id="faq-title">Before you<br>place an order.</h2><a href="#contact" class="faq-contact">Talk to our team ↗</a></div>
+            <div class="faq-list">
+                <details><summary>How do I request a quotation?</summary><p>Use an “Enquire now” button or the contact form to open WhatsApp. Include product names, quantities, sizes, and your delivery location so our team can discuss your requirements.</p></details>
+                <details><summary>Can I enquire about several product categories?</summary><p>Yes. Send your full material list through WhatsApp or email, including any project specifications. Our team can review the items with you.</p></details>
+                <details><summary>How do I confirm availability and delivery?</summary><p>Contact our team with the required quantity, site location, and preferred date. Confirm current stock, lead times, and any delivery charges before placing your order.</p></details>
+                <details><summary>What if my project requires a specific standard?</summary><p>Include the exact standard, grade, dimensions, and documentation requirements in your enquiry. Ask the team to confirm the relevant product details before purchase.</p></details>
+            </div>
+        </div>
+    </section>
+    </main>
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
